@@ -1,2 +1,6 @@
-name: Paul Rigor
+title:    "P.K. Rigor's academic papers"
 markdown: kramdown
+
+exclude:
+- README.md
+- LICENSE.md
