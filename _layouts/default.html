@@ -9,7 +9,7 @@
 			<nav>
 	    		<ul>
 	        		<li><a href="/">{{ site.title }}</a></li>
-		        	<li><a href="{{ 'about.html'   | relative_url }}">About</a></li>
+		        	<li><a href="{{ 'about.html'   | relative_url }}">{{ page.title }}</a></li>
 	    		</ul>
 			</nav>
 			<div class="container">
@@ -19,7 +19,6 @@
 			</div><!-- /.container -->
 			<footer>
 	    		<ul>
-					<li><a href="{{ 'about.html'   | relative_url }}">about</a></li>
 					<div align="center"><li><a href="https://github.com/kvrigor/kvrigor.github.io">Site powered by GitHub+Jekyll</a></li></div>
 				</ul>
 			</footer>
